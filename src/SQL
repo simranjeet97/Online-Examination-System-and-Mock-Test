@@ -1,0 +1,28 @@
+create database bugdb;
+use bugdb;
+create table employee
+(
+emp_id int primary key auto_increment,
+emp_name varchar(200),
+pass varchar(200),
+gender varchar(200),
+email_id varchar(200),
+emp_city varchar(200),
+emp_contact varchar(200),
+role varchar(200),
+images longblob,
+status varchar(200),
+result varchar(200)
+);
+
+
+
+create database bug2db;
+use bug2db;
+create table courses(
+id int primary key auto_increment,
+course_name varchar(200)
+);
+
+
+SET THE QUIZ FRAME THAT QUESTIONS SHOW ON ONE CLICK AND ANSWERS IN RADIO BUTTONS.
